@@ -17,8 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
         navLinks.classList.toggle('active');
         svgMenu.setAttribute('d', toggler ? paths.open : paths.close);
         navLinks.style.top = `${navbarHeight}px`;
-        if(!navbar.classList.contains('sticky')){
-            navbar.classList.toggle('isticky');
+        if(!navbar.classList.contains('isticky')){
+            navbar.classList.toggle('sticky');
         }
     });
 });
